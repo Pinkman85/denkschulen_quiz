@@ -169,5 +169,4 @@ document.getElementById('next-btn').addEventListener('click', () => {
     }
 });
 
-// Startet das Quiz
 showQuestion();

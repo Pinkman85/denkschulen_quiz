@@ -6,7 +6,7 @@ const questions = [
             { text: "Logik und rationales Denken", school: "Rationalismus", weight: 3 },
             { text: "Das, was ich durch meine Sinne erfahre", school: "Empirismus", weight: 3 },
             { text: "Meine innere Welt und Gedanken", school: "Idealismus", weight: 3 },
-            { text: "Gemeinsamer Fortschritt und gesellschaftliche Entwicklung", school: "Sozialphilosophie", weight: 3 }
+            { text: "Das, was ich durch Erfahrungen und Interaktionen lerne", school: "Konstruktivismus", weight: 3 }
         ]
     },
     {
@@ -24,7 +24,7 @@ const questions = [
             { text: "Um die objektive Wahrheit zu erkennen", school: "Rationalismus", weight: 3 },
             { text: "Damit es praktisch im Alltag genutzt werden kann", school: "Pragmatismus", weight: 3 },
             { text: "Um mich selbst besser zu verstehen", school: "Existentialismus", weight: 3 },
-            { text: "Um die Gesellschaft zu verbessern", school: "Sozialphilosophie", weight: 3 }
+            { text: "Um aktiv mein Verständnis der Welt zu erweitern und zu verändern", school: "Konstruktivismus", weight: 3 }
         ]
     },
     {
@@ -33,7 +33,7 @@ const questions = [
             { text: "Unsere Fähigkeit, rational zu denken", school: "Rationalismus", weight: 3 },
             { text: "Die Erfahrungen, die wir im Leben machen", school: "Empirismus", weight: 3 },
             { text: "Die Freiheit, unsere Entscheidungen selbst zu treffen", school: "Existentialismus", weight: 3 },
-            { text: "Die soziale Umgebung, in der wir leben", school: "Sozialphilosophie", weight: 3 }
+            { text: "Unsere Fähigkeit, in Einklang mit uns selbst und der Welt zu leben", school: "Harmonismus", weight: 3 }
         ]
     },
     {
@@ -42,14 +42,14 @@ const questions = [
             { text: "Indem ich analytisch und logisch nachdenke", school: "Rationalismus", weight: 3 },
             { text: "Indem ich praktische Lösungen suche", school: "Pragmatismus", weight: 3 },
             { text: "Indem ich den Konflikt akzeptiere und darüber reflektiere", school: "Idealismus", weight: 3 },
-            { text: "Indem ich versuche, die Gesellschaft zu verändern", school: "Sozialphilosophie", weight: 3 }
+            { text: "Indem ich den Konflikt als Chance sehe, neue Perspektiven zu entwickeln", school: "Konstruktivismus", weight: 3 }
         ]
     },
     {
         question: "Wohin sollte die Menschheit deiner Meinung nach streben?",
         answers: [
             { text: "Zu wissenschaftlichem und technologischem Fortschritt", school: "Rationalismus", weight: 3 },
-            { text: "Zu mehr Gerechtigkeit und Gleichheit in der Gesellschaft", school: "Sozialphilosophie", weight: 3 },
+            { text: "Zu besserem Verständnis der Welt durch Austausch und Zusammenarbeit", school: "Konstruktivismus", weight: 3 },
             { text: "Zu einem besseren Verständnis des eigenen Selbst", school: "Existentialismus", weight: 3 },
             { text: "Zu neuen Entdeckungen durch Beobachtung und Experimente", school: "Empirismus", weight: 3 }
         ]
@@ -77,7 +77,7 @@ const questions = [
         answers: [
             { text: "Ich denke logisch nach und analysiere die Situation, um eine klare Lösung zu finden.", school: "Rationalismus", weight: 3 },
             { text: "Ich suche nach praktischen Lösungen, die sofort umsetzbar sind.", school: "Pragmatismus", weight: 3 },
-            { text: "Ich suche nach Lösungen, die Gerechtigkeit fördern und das Gemeinwohl stärken.", school: "Sozialphilosophie", weight: 3 },
+            { text: "Ich tausche mich mit anderen aus und konstruiere gemeinsam Lösungen.", school: "Konstruktivismus", weight: 3 },
             { text: "Ich versuche, kreative Ansätze zu finden und neue Perspektiven einzubringen.", school: "Idealismus", weight: 3 }
         ]
     }
@@ -89,7 +89,7 @@ const schoolDescriptions = {
     Rationalismus: "Rationalismus ist eine philosophische Strömung, die die Vernunft als wichtigste Quelle der Erkenntnis ansieht. Wissen entsteht durch logisches Denken, das unabhängig von Sinneserfahrungen zu grundlegenden Wahrheiten führen kann. Philosophen wie Descartes betonten, dass die Vernunft verlässlichere Erkenntnisse liefert als unsere oft täuschenden Sinne.",
     Empirismus: "Empirismus betont, dass alle Erkenntnis aus Sinneswahrnehmungen und Erfahrungen stammt. Der menschliche Geist wird als 'unbeschriebenes Blatt' angesehen, das durch Beobachtungen und Erlebnisse geformt wird. John Locke und David Hume legten dabei großen Wert auf experimentelle Wissenschaft und die Rolle der Sinne.",
     Idealismus: "Idealismus geht davon aus, dass die Realität nicht unabhängig von unserem Geist oder unseren Ideen existiert. Unsere Wahrnehmung und unser Denken formen die Welt, wie wir sie verstehen. Vertreter wie Immanuel Kant oder Hegel untersuchten, wie Ideen und Gedanken die Grundlage unserer Wirklichkeit bilden.",
-    Sozialphilosophie: "Die Sozialphilosophie beschäftigt sich mit den Prinzipien des gesellschaftlichen Zusammenlebens. Sie analysiert, wie soziale Strukturen entstehen, welche Werte für eine gerechte Gesellschaft wichtig sind und wie individuelle Freiheiten mit dem Gemeinwohl in Einklang gebracht werden können. Bekannte Themen sind Gerechtigkeit, Macht und Verantwortung.",
+    Konstruktivismus: "Der Konstruktivismus ist eine Denkrichtung, die davon ausgeht, dass Wissen nicht einfach entdeckt, sondern aktiv vom Individuum konstruiert wird. Unsere Wahrnehmungen und Erfahrungen spielen eine zentrale Rolle bei der Bildung von Wissen. Der Konstruktivismus hebt hervor, dass jedes Individuum die Welt durch seine eigenen Erfahrungen und sozialen Interaktionen aufbaut.",
     Pragmatismus: "Pragmatismus ist eine Philosophie, die die praktische Anwendbarkeit von Wissen in den Vordergrund stellt. Eine Idee oder Handlung gilt als wahr oder sinnvoll, wenn sie in der Praxis funktioniert und positive Konsequenzen hat. Philosophen wie John Dewey und William James betonten, dass Wahrheit flexibel und anpassungsfähig sein muss.",
     Materialismus: "Materialismus ist die Auffassung, dass alles in der Welt, einschließlich Gedanken und Gefühle, auf materielle Prozesse zurückzuführen ist. Diese Philosophie sieht die physische Welt als Grundlage der Realität. Karl Marx verband den Materialismus mit gesellschaftlichen und wirtschaftlichen Analysen, um soziale Entwicklungen zu erklären.",
     Existentialismus: "Existentialismus stellt den einzelnen Menschen, seine Freiheit und Verantwortung in den Mittelpunkt. In einer oft als sinnlos empfundenen Welt liegt es an jedem Individuum, selbst einen Sinn im Leben zu finden. Jean-Paul Sartre und Albert Camus betonten, dass unsere Entscheidungen unsere Existenz definieren.",

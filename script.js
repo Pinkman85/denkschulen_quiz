@@ -3,97 +3,107 @@ const questions = [
     {
         question: "Was ist für dich der wichtigste Aspekt im Leben?",
         answers: [
-            { text: "Rationalität und Logik", school: "Rationalismus", weight: 3 },
-            { text: "Erfahrung und Wahrnehmung", school: "Empirismus", weight: 3 },
-            { text: "Inneres Bewusstsein", school: "Idealismus", weight: 3 },
-            { text: "Gesellschaftlicher Fortschritt", school: "Sozialphilosophie", weight: 3 }
+            { text: "Logik und rationales Denken", school: "Rationalismus", weight: 3 },
+            { text: "Das, was ich durch meine Sinne erfahre", school: "Empirismus", weight: 3 },
+            { text: "Meine innere Welt und Gedanken", school: "Idealismus", weight: 3 },
+            { text: "Gemeinsamer Fortschritt und gesellschaftliche Entwicklung", school: "Sozialphilosophie", weight: 3 }
         ]
     },
     {
-        question: "Wie siehst du die Natur der Realität?",
+        question: "Wie würdest du die Realität beschreiben?",
         answers: [
-            { text: "Alles ist Materie", school: "Materialismus", weight: 3 },
-            { text: "Bewusstsein ist fundamental", school: "Idealismus", weight: 3 },
-            { text: "Realität ist ein soziales Konstrukt", school: "Postmodernismus", weight: 3 },
-            { text: "Nur messbare Dinge sind real", school: "Empirismus", weight: 3 }
+            { text: "Die Realität besteht aus greifbaren, materiellen Dingen", school: "Materialismus", weight: 3 },
+            { text: "Unser Bewusstsein formt die Realität", school: "Idealismus", weight: 3 },
+            { text: "Realität ist ein Ergebnis sozialer Konstruktionen", school: "Postmodernismus", weight: 3 },
+            { text: "Nur messbare Fakten sind real", school: "Empirismus", weight: 3 }
         ]
     },
     {
-        question: "Was ist das Ziel des Wissens?",
+        question: "Warum ist es wichtig, Wissen zu erlangen?",
         answers: [
-            { text: "Erkenntnis der objektiven Wahrheit", school: "Rationalismus", weight: 3 },
-            { text: "Praktische Anwendung", school: "Pragmatismus", weight: 3 },
-            { text: "Verstehen des eigenen Selbst", school: "Existentialismus", weight: 3 },
-            { text: "Verbesserung der Gesellschaft", school: "Sozialphilosophie", weight: 3 }
+            { text: "Um die objektive Wahrheit zu erkennen", school: "Rationalismus", weight: 3 },
+            { text: "Damit es praktisch im Alltag genutzt werden kann", school: "Pragmatismus", weight: 3 },
+            { text: "Um mich selbst besser zu verstehen", school: "Existentialismus", weight: 3 },
+            { text: "Um die Gesellschaft zu verbessern", school: "Sozialphilosophie", weight: 3 }
         ]
     },
     {
-        question: "Wie betrachtest du die menschliche Natur?",
+        question: "Was prägt deiner Meinung nach die menschliche Natur am meisten?",
         answers: [
-            { text: "Menschen sind von Natur aus rational", school: "Rationalismus", weight: 3 },
-            { text: "Menschen sind Produkte ihrer Erfahrungen", school: "Empirismus", weight: 3 },
-            { text: "Der Mensch ist frei und bestimmt sich selbst", school: "Existentialismus", weight: 3 },
-            { text: "Gesellschaft ist der Hauptfaktor, der den Menschen prägt", school: "Sozialphilosophie", weight: 3 }
+            { text: "Unsere Fähigkeit, rational zu denken", school: "Rationalismus", weight: 3 },
+            { text: "Die Erfahrungen, die wir im Leben machen", school: "Empirismus", weight: 3 },
+            { text: "Die Freiheit, unsere Entscheidungen selbst zu treffen", school: "Existentialismus", weight: 3 },
+            { text: "Die soziale Umgebung, in der wir leben", school: "Sozialphilosophie", weight: 3 }
         ]
     },
     {
-        question: "Wie gehst du mit Konflikten um?",
+        question: "Wie gehst du am liebsten mit Konflikten um?",
         answers: [
-            { text: "Durch rationales Denken und Analyse", school: "Rationalismus", weight: 3 },
-            { text: "Durch Diskussion und praktisches Handeln", school: "Pragmatismus", weight: 3 },
-            { text: "Durch Akzeptanz und Reflektion", school: "Idealismus", weight: 3 },
-            { text: "Durch soziale Veränderung und Revolution", school: "Sozialphilosophie", weight: 3 }
+            { text: "Indem ich analytisch und logisch nachdenke", school: "Rationalismus", weight: 3 },
+            { text: "Indem ich praktische Lösungen suche", school: "Pragmatismus", weight: 3 },
+            { text: "Indem ich den Konflikt akzeptiere und darüber reflektiere", school: "Idealismus", weight: 3 },
+            { text: "Indem ich versuche, die Gesellschaft zu verändern", school: "Sozialphilosophie", weight: 3 }
         ]
     },
     {
-        question: "Welches Ziel hat für dich der Fortschritt der Menschheit?",
+        question: "Wohin sollte die Menschheit deiner Meinung nach streben?",
         answers: [
-            { text: "Wissenschaft und Technologie", school: "Rationalismus", weight: 3 },
-            { text: "Gesellschaftliche Gerechtigkeit und Gleichheit", school: "Sozialphilosophie", weight: 3 },
-            { text: "Das Streben nach einem besseren Selbst", school: "Existentialismus", weight: 3 },
-            { text: "Erweiterung des Wissens durch empirische Beobachtung", school: "Empirismus", weight: 3 }
+            { text: "Zu wissenschaftlichem und technologischem Fortschritt", school: "Rationalismus", weight: 3 },
+            { text: "Zu mehr Gerechtigkeit und Gleichheit in der Gesellschaft", school: "Sozialphilosophie", weight: 3 },
+            { text: "Zu einem besseren Verständnis des eigenen Selbst", school: "Existentialismus", weight: 3 },
+            { text: "Zu neuen Entdeckungen durch Beobachtung und Experimente", school: "Empirismus", weight: 3 }
         ]
     },
     {
-        question: "Wie siehst du die Moral?",
+        question: "Wie siehst du die Natur von Moral?",
         answers: [
-            { text: "Moral ist universell und rational", school: "Kantianismus", weight: 3 },
-            { text: "Moral ist relativ und von der Kultur abhängig", school: "Relativismus", weight: 3 },
-            { text: "Moral hängt von den Folgen der Handlung ab", school: "Utilitarismus", weight: 3 },
-            { text: "Moral ist subjektiv und individuell", school: "Existentialismus", weight: 3 }
+            { text: "Moral basiert auf universellen und rationalen Prinzipien", school: "Kantianismus", weight: 3 },
+            { text: "Moral ist relativ und hängt von der Kultur ab", school: "Relativismus", weight: 3 },
+            { text: "Moral wird durch die Folgen einer Handlung definiert", school: "Utilitarismus", weight: 3 },
+            { text: "Moral ist etwas Persönliches und Subjektives", school: "Existentialismus", weight: 3 }
         ]
     },
     {
-        question: "Wie würdest du das Verhältnis zwischen Individuum und Gesellschaft beschreiben?",
+        question: "Was ist wichtiger: das Individuum oder die Gesellschaft?",
         answers: [
-            { text: "Das Individuum sollte über allem stehen", school: "Individualismus", weight: 3 },
+            { text: "Das Individuum steht im Mittelpunkt", school: "Individualismus", weight: 3 },
             { text: "Die Gesellschaft sollte das Individuum prägen", school: "Sozialismus", weight: 3 },
-            { text: "Individuen und Gesellschaft sollten im Einklang miteinander existieren", school: "Harmonismus", weight: 3 },
-            { text: "Das Individuum bestimmt seine eigene Bedeutung", school: "Existentialismus", weight: 3 }
+            { text: "Beide sollten in Harmonie miteinander existieren", school: "Harmonismus", weight: 3 },
+            { text: "Das Individuum gibt sich selbst Bedeutung", school: "Existentialismus", weight: 3 }
         ]
     },
     {
-        question: "Was ist für dich das wichtigste bei der Lösung von Problemen?",
+        question: "Wie gehst du am liebsten an Probleme heran?",
         answers: [
-            { text: "Logische und analytische Überlegung", school: "Rationalismus", weight: 3 },
-            { text: "Pragmatische Lösungen und praktische Erfahrung", school: "Pragmatismus", weight: 3 },
-            { text: "Menschliche und gesellschaftliche Dimensionen verstehen", school: "Sozialphilosophie", weight: 3 },
-            { text: "Neue Perspektiven und Ideen suchen", school: "Idealismus", weight: 3 }
+            { text: "Ich denke logisch nach und analysiere die Situation, um eine klare Lösung zu finden.", school: "Rationalismus", weight: 3 },
+            { text: "Ich suche nach praktischen Lösungen, die sofort umsetzbar sind.", school: "Pragmatismus", weight: 3 },
+            { text: "Ich suche nach Lösungen, die Gerechtigkeit fördern und das Gemeinwohl stärken.", school: "Sozialphilosophie", weight: 3 },
+            { text: "Ich versuche, kreative Ansätze zu finden und neue Perspektiven einzubringen.", school: "Idealismus", weight: 3 }
         ]
     }
 ];
 
-// Die Denkschulen, die wir analysieren
-const schools = [
-    "Rationalismus", "Empirismus", "Idealismus", "Sozialphilosophie", "Pragmatismus",
-    "Materialismus", "Existentialismus", "Postmodernismus", "Kantianismus", "Utilitarismus", "Harmonismus"
-];
+
+// Die Denkschulen mit Beschreibungen
+const schoolDescriptions = {
+    Rationalismus: "Rationalismus ist eine philosophische Strömung, die die Vernunft als wichtigste Quelle der Erkenntnis ansieht. Wissen entsteht durch logisches Denken, das unabhängig von Sinneserfahrungen zu grundlegenden Wahrheiten führen kann. Philosophen wie Descartes betonten, dass die Vernunft verlässlichere Erkenntnisse liefert als unsere oft täuschenden Sinne.",
+    Empirismus: "Empirismus betont, dass alle Erkenntnis aus Sinneswahrnehmungen und Erfahrungen stammt. Der menschliche Geist wird als 'unbeschriebenes Blatt' angesehen, das durch Beobachtungen und Erlebnisse geformt wird. John Locke und David Hume legten dabei großen Wert auf experimentelle Wissenschaft und die Rolle der Sinne.",
+    Idealismus: "Idealismus geht davon aus, dass die Realität nicht unabhängig von unserem Geist oder unseren Ideen existiert. Unsere Wahrnehmung und unser Denken formen die Welt, wie wir sie verstehen. Vertreter wie Immanuel Kant oder Hegel untersuchten, wie Ideen und Gedanken die Grundlage unserer Wirklichkeit bilden.",
+    Sozialphilosophie: "Die Sozialphilosophie beschäftigt sich mit den Prinzipien des gesellschaftlichen Zusammenlebens. Sie analysiert, wie soziale Strukturen entstehen, welche Werte für eine gerechte Gesellschaft wichtig sind und wie individuelle Freiheiten mit dem Gemeinwohl in Einklang gebracht werden können. Bekannte Themen sind Gerechtigkeit, Macht und Verantwortung.",
+    Pragmatismus: "Pragmatismus ist eine Philosophie, die die praktische Anwendbarkeit von Wissen in den Vordergrund stellt. Eine Idee oder Handlung gilt als wahr oder sinnvoll, wenn sie in der Praxis funktioniert und positive Konsequenzen hat. Philosophen wie John Dewey und William James betonten, dass Wahrheit flexibel und anpassungsfähig sein muss.",
+    Materialismus: "Materialismus ist die Auffassung, dass alles in der Welt, einschließlich Gedanken und Gefühle, auf materielle Prozesse zurückzuführen ist. Diese Philosophie sieht die physische Welt als Grundlage der Realität. Karl Marx verband den Materialismus mit gesellschaftlichen und wirtschaftlichen Analysen, um soziale Entwicklungen zu erklären.",
+    Existentialismus: "Existentialismus stellt den einzelnen Menschen, seine Freiheit und Verantwortung in den Mittelpunkt. In einer oft als sinnlos empfundenen Welt liegt es an jedem Individuum, selbst einen Sinn im Leben zu finden. Jean-Paul Sartre und Albert Camus betonten, dass unsere Entscheidungen unsere Existenz definieren.",
+    Postmodernismus: "Der Postmodernismus hinterfragt universelle Wahrheiten und objektive Realitäten. Er betont, dass alle Erkenntnis von kulturellen und historischen Kontexten abhängig ist. Vertreter wie Lyotard und Derrida legten den Fokus auf die Rolle von Sprache, Symbolen und Machtstrukturen bei der Konstruktion von Wirklichkeit.",
+    Kantianismus: "Der Kantianismus basiert auf den Ideen von Immanuel Kant, der Vernunft und Moral miteinander verband. Eine zentrale Idee ist der kategorische Imperativ, der fordert, dass Menschen nach Prinzipien handeln sollen, die für alle gelten können. Kant betonte auch die Würde des Menschen und die Autonomie des Willens.",
+    Utilitarismus: "Der Utilitarismus sieht moralisches Handeln in der Maximierung des Glücks oder Nutzens für die größtmögliche Anzahl von Menschen. Philosophen wie Jeremy Bentham und John Stuart Mill argumentierten, dass die Konsequenzen einer Handlung entscheidend für ihre moralische Bewertung sind.",
+    Harmonismus: "Der Harmonismus strebt danach, ein Gleichgewicht zwischen unterschiedlichen Meinungen und Interessen herzustellen. Er sieht Harmonie als Schlüssel, um Konflikte zu lösen und ein friedliches Zusammenleben zu ermöglichen. Diese Philosophie betont die Bedeutung von Ausgleich und gegenseitigem Verständnis."
+};
+
 
 let currentQuestionIndex = 0;
 let scores = {};
 
-// Punktestand für jede Schule initialisieren
-schools.forEach(school => scores[school] = 0);
+Object.keys(schoolDescriptions).forEach(school => scores[school] = 0);
 
 // Zeigt die aktuelle Frage an
 function showQuestion() {
@@ -121,7 +131,7 @@ function showQuestion() {
     skipButton.classList.add('answer-option');
     skipButton.innerText = "Keine dieser Antworten passt zu mir";
     skipButton.addEventListener('click', () => {
-        nextBtn.style.display = 'block'; // keine Punkteänderung
+        nextBtn.style.display = 'block';
     });
     answersContainer.appendChild(skipButton);
 }
@@ -138,24 +148,49 @@ function showResult() {
     const resultBox = document.getElementById('result-box');
     const quizContainer = document.getElementById('quiz-container');
 
-    // Berechnet den maximal möglichen Punktestand
-    const maxScore = questions.length * 3; // da jede Frage ein Gewicht von 3 hat
+    const maxScore = questions.length * 3; 
 
     // Berechnet die Prozentwerte und sortiert die Ergebnisse
     const results = Object.keys(scores).map(school => {
         return { 
             school: school, 
-            percentage: ((scores[school] / maxScore) * 100).toFixed(2) // auf zwei Nachkommastellen
+            percentage: ((scores[school] / maxScore) * 100).toFixed(2) 
         };
-    }).sort((a, b) => b.percentage - a.percentage); // sortiere absteigend
+    }).sort((a, b) => b.percentage - a.percentage); 
 
-    // Zeigt das Ergebnis an
+    // Zeigt die Ergebnisse an
     quizContainer.style.display = 'none';
     resultBox.style.display = 'block';
     resultBox.innerHTML = `<h2>Ergebnisse</h2>`;
     results.forEach(result => {
-        resultBox.innerHTML += `<p>${result.school}: ${result.percentage}% passend</p>`;
+        const schoolItem = document.createElement('div');
+        schoolItem.classList.add('school-item');
+        schoolItem.innerHTML = `
+            <p class="school-name" data-school="${result.school}">
+                ${result.school}: ${result.percentage}% passend
+            </p>
+            <div class="school-description" style="display: none; padding: 10px;">
+                ${schoolDescriptions[result.school]}
+            </div>
+        `;
+        schoolItem.querySelector('.school-name').addEventListener('click', function() {
+            toggleDescription(this);
+        });
+        resultBox.appendChild(schoolItem);
     });
+}
+
+function toggleDescription(element) {
+    const description = element.nextElementSibling;
+    const isVisible = description.style.display === 'block';
+
+    if (isVisible) {
+        description.style.display = 'none';
+        element.classList.remove('active-school');
+    } else {
+        description.style.display = 'block';
+        element.classList.add('active-school'); 
+    }
 }
 
 // Wechselt zur nächsten Frage oder zeigt das Ergebnis an
